@@ -241,6 +241,14 @@
 	label = "10g";
 };
 
+&pcie_qmp0 {
+	status = "okay";
+};
+
+&pcie0 {
+	status = "okay";
+};
+
 &wifi {
 	status = "okay";
 
