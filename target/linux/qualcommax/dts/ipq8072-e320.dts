@@ -247,6 +247,7 @@
 
 &pcie0 {
 	status = "okay";
+	perst-gpios = <&tlmm 58 GPIO_ACTIVE_LOW>;
 };
 
 &wifi {
